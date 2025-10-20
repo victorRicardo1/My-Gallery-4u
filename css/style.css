@@ -42,3 +42,13 @@ you can use the generic selector below, but it's slower:
 .icon_house_alt:before {
 	content: "\e009";
 }
+
+.gallery img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);                       
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);       
+  cursor: pointer;                               
+}
